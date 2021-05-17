@@ -1,0 +1,140 @@
+body{
+    background-image: url(img/hatter.png);
+    background-repeat: repeat;
+    background-size: 10%;
+}
+.nagydiv{
+    background-color: pink;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: dotted;
+}
+.flex-container{
+    display: flex;
+
+}
+hr{
+    border-color: orange;
+    margin-top: 0%;
+}
+.macskák{
+   
+    display: inline;
+}
+.firstcat{
+    margin-left: 11%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.bal{
+    background-color: rgb(162, 158, 158);
+    margin-left: 3%;
+    width: 50%;
+}
+.name{
+    background-color: pink;
+    margin-right:30%;
+    margin-left: 3%;
+    border: outset;
+}
+
+
+.jobb{
+    text-align: left;
+    background-color: rgb(162, 158, 158);
+    margin-left: 2%;
+    width: 50%;
+    margin-right: 3%;
+
+}
+.catimg{
+    width: 20%;
+    float: left;
+    margin-right: 1%;
+    border: inset;
+}
+a:link {
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.javadiv{
+    background-color: pink;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: dotted;
+    margin-top: 1%;
+}
+.lentkép{
+    width: 20%;
+    height: 180px;
+    
+}
+.elso{
+    margin-left: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.animacio {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.animacio img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.animacio img:hover {
+  opacity: 1;
+}
+
+
+.script:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  position: relative;
+  display: none;
+}
+
+
+#imgszöveg {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
